@@ -1,0 +1,85 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar-brand img{
+    width: 291px;
+    height: 40px;
+}
+h5{
+    font-weight: 700;
+    size: 24px;
+}
+.custom-fw-500{
+    font-weight: 500;
+}
+.hero-section{
+    background: #FFF9F4;
+    /* background: #0c0b0b; */
+}
+.hero-img{
+    width: 525px;
+    height: 470px;
+}
+
+[data-bebasNeue]{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 48px;
+    font-weight: 700;    
+}
+[data-bebasNeue = "hero"]{
+    font-size: 80px;
+}
+.custom-btn{
+    background: linear-gradient(180deg, #3D4FF3 0%, #3543BC 100%);
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.custom-rounded{
+    border-radius: 20px;
+}
+.price-text{
+    font-weight: 900;
+    font-size: 36px;
+    color: #fa804c;
+}
+.icon{
+    width: 24px;
+    height: 24px;
+    /* display: inline; */
+}
+.footer-hero{
+    width: 599px;
+    height: 354px;
+}
+.footer-img{
+    width: 78px;
+    height: 82px;
+}
+
+@media screen and (max-width:768px) {
+    .hero-img{
+        width: 315px;
+        height: 290px;
+    }
+    .footer-hero{
+        width: 292px;
+        height: 173px;
+    }
+}
+@media screen and (max-width:992px) {
+.navbar-brand img{
+    width: 192px;
+    height: 26px;
+}
+    .hero-img{
+        width: 315px;
+        height: 290px;
+    }
+}
